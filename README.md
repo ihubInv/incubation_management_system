@@ -1,5 +1,114 @@
 # incubation_management_system
 
+A web-based portal for managing incubation programs, startups, and administrative workflows.
+
+## 🚀 Project Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/LearnCodeWithRam/incubation_management_system.git
+cd incubation_management_system
+```
+
+### 2. Install Node.js (if not already installed)
+
+Download Node.js from the official site: [https://nodejs.org](https://nodejs.org)
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+```
+
+### 3. Install Dependencies
+
+Use the following command to install all required packages (use legacy peer deps to avoid conflicts):
+
+```bash
+npm install axios --legacy-peer-deps
+npm i xlsx --legacy-peer-deps
+npm i jspdf --legacy-peer-deps
+npm jspdf-autotable --legacy-peer-deps
+npm install --legacy-peer-de
+npm install --legacy-peer-deps @radix-ui/react-popover react-day-picker date-fns
+npm install --legacy-peer-deps jspdf-autotable
+npm install --legacy-peer-deps --save html2canva
+ npm install --legacy-peer-deps react-apexcharts apexcharts
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+You should see an output like this:
+
+```
+> my-v0-project@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.2.4
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.177:3000
+
+ ✓ Starting...
+ ✓ Ready in 6.7s
+ ○ Compiling / ...
+ ✓ Compiled / in 13.2s (788 modules)
+ ✓ Compiled in 3.2s (338 modules)
+ GET / 200 in 16661ms
+```
+
+### 5. Open the Project in Browser
+
+Go to:
+
+```
+http://localhost:3000
+```
+
+The application should be up and running 🚀
+
+---
+
+## 🧑‍💻 Contributing
+
+To contribute:
+
+1. Fork the repository
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit:
+   ```bash
+   git add .
+   git commit -m "Added new feature"
+   ```
+4. Push to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Open a Pull Request on the main repository
+
+---
+
+## 📌 Notes
+
+- Ensure you are using Node.js version >= 16.x for best compatibility.
+- Use `npm install --legacy-peer-deps` especially if you face issues related to conflicting package versions.
+- Make sure port `3000` is free before starting the app.
+
+---
+
+## 📞 Support
+
+For any issues or doubts, please use the designated team communication group or raise an issue here on GitHub.
+
+
 # Incubation Hub API
 
 A comprehensive REST API for managing startup incubation data, analytics, and user management.
